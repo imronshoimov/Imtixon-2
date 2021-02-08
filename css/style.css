@@ -443,6 +443,7 @@ body {
 
     .business .container {
         flex-direction: column;
+        font-size: 18px;
     }
 
     .business__iframe {
@@ -453,6 +454,11 @@ body {
         width: 90%;
         text-align: center;
         margin-top: 40px;
+    }
+
+    .serves__subtext {
+        width: 90%;
+        font-size: 18px;
     }
 
     .serves__list {
@@ -467,6 +473,18 @@ body {
     .serves__links {
         display: flex;
         flex-direction: column;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .work__subtext {
+        width: 90%;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
+    .box__content__subtext {
+        font-size: 17px;
     }
 
     .category {
@@ -487,6 +505,12 @@ body {
         width: 80%;
     }
 
+    .order__subtext {
+        width: 90%;
+        font-size: 18px;
+        line-height: 1.6;
+    }
+
     .footer__list {
         flex-direction: column;
         align-items: center;
@@ -500,6 +524,10 @@ body {
         align-items: center;
     }
 
+    .footer__item a, .footer__item1 a {
+        font-size: 18px;
+    }
+
     .footer__title {
         width: 150%;
         margin-top: 40px;
@@ -508,6 +536,7 @@ body {
     .footer__copyright {
         text-align: center;
         width: 200%;
+        font-size: 18px;
     }
 }
 
