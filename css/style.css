@@ -62,6 +62,7 @@ body {
 
 .nav-list {
     display: flex;
+    align-items: center;
 }
 
 .nav-item {
@@ -88,7 +89,7 @@ body {
 }
 
 .nav-link:hover {
-    color: rgba(0,0,0,0.6);
+    color:  var(--hover-color);
 }
 
 /* 
