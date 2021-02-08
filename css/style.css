@@ -43,7 +43,7 @@ body {
 */
 
 .nav {
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.5); */
 }
 
 .nav .container {
@@ -277,7 +277,7 @@ body {
 */
 
 .order {
-    background-color: var(--bg-color);
+    
 }
 
 .order .container {
@@ -285,6 +285,8 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 60px 0;
+    background-color: var(--bg-color);
+    width: 1520px;
 }
 
 .order__title {
@@ -365,12 +367,10 @@ body {
     FOOTER SECTION
 */
 
-.footer {
-    background-color: #191919;
-}
-
 .footer .container {
-    padding: 50px 0;
+    padding: 50px 100px;
+    background-color: #191919;
+    width: 1520px;
 }
 
 .footer__list {
@@ -421,6 +421,14 @@ body {
     .container {
         width: 960px;
     }
+
+    .order .container {
+        width: 960px;
+    }
+
+    .footer .container {
+        width: 960px;
+    }
 }
 
 @media (max-width: 980px) {
@@ -431,6 +439,10 @@ body {
     .nav .container {
         width: 820px;
     }
+
+    .footer .container, .order .container {
+        width: 820px;
+    } 
 }
 
 @media (max-width: 860px) {
@@ -448,6 +460,15 @@ body {
 
     .hamburger-button {
         display: flex;
+    }
+
+    .footer .container, .order .container {
+        width: 720px;
+    }
+
+    .footer__list {
+        flex-direction: column;
+        align-items: flex-start;
     }
 }
 
@@ -506,14 +527,19 @@ body {
         margin-left: 50px;
     }
 
-    .footer, .order {
-        width: 780px;
+    .footer .container, .order .container {
+        width: 640px;
     }
 }
 
 @media (max-width: 680px) {
     .container {
         width: 90%;
+    }
+
+    .nav .container {
+        justify-content: space-between;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
     }
     
     .nav {
@@ -527,6 +553,10 @@ body {
     .footer, .order {
         width: 680px;
     }   
+
+    .footer .container, .order .container {
+        width: 90%;
+    }
 }
 
 
@@ -548,6 +578,10 @@ body {
     }
 
     .business__iframe {
+        width: 100%;
+    }
+
+    .footer .container, .order .container {
         width: 500px;
     }
 }
