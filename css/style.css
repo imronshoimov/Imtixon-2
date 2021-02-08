@@ -517,7 +517,7 @@ body {
     }
     
     .nav {
-        width: 720px;
+        width: 680px;
     }
 
     .nav .container {
@@ -525,7 +525,7 @@ body {
     }
 
     .footer, .order {
-        width: 720px;
+        width: 680px;
     }   
 }
 
@@ -536,11 +536,11 @@ body {
     }
 
     .nav {
-        width: 720px;
+        width: 580px;
     }
 
     .footer, .order {
-        width:  
+        width:  580px;
     }
 
     .business .container {
