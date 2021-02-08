@@ -27,6 +27,17 @@ body {
     margin: 0 auto;
 }
 
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important; 
+	width: 1px !important; 
+	overflow: hidden;
+}
+
 /* 
     FIRST SECTION
 */
@@ -337,5 +348,34 @@ body {
 
 .order__button:hover {
     background-color: var(--hover-color);
+}
+
+/* 
+    FOOTER SECTION
+*/
+
+.footer {
+
+}
+
+.footer .container {
+    padding: 50px 0;
+}
+
+.footer__list {
+    display: flex;
+}
+
+.footer__list:first-child {
+    width: 70%;
+}
+
+.footer__item:nth-child(odd), .footer__item:last-child  {
+    margin-left: 100px;
+    width: 30%;
+}
+
+.footer__item__list a {
+    display: flex;
 }
 
