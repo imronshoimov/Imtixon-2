@@ -9,6 +9,16 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+ 
+
 ul {
     list-style: none;
 }
@@ -161,6 +171,7 @@ body {
     text-align: center;
     width: 60%;
     margin-bottom: 40px;
+    line-height: 1.7;
 }
 
 .serves__list {
@@ -484,6 +495,10 @@ body {
     }
 
     .box__content__subtext {
+        line-height: 1.7;
+    }
+
+    .box__content__subtext {
         font-size: 17px;
     }
 
@@ -537,6 +552,7 @@ body {
         text-align: center;
         width: 200%;
         font-size: 18px;
+        line-height: 1.7;
     }
 }
 
