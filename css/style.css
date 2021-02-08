@@ -452,9 +452,27 @@ body {
     }
 
     .business__content {
-        width: 80%;
+        width: 90%;
         text-align: center;
         margin-top: 40px;
+    }
+
+    .serves__list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .serves__item {
+        width: 70%;
+    }
+
+    .serves__links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category {
+        margin-top: 10px;
     }
 }
 
