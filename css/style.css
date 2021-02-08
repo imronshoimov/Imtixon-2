@@ -474,6 +474,20 @@ body {
     .category {
         margin-top: 10px;
     }
+
+    .boxes, .boxes1 {
+        flex-direction: column;
+    }
+
+    .box__content {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .order__form {
+        width: 80%;
+    }
 }
 
 @media (max-width: 560px){
@@ -483,5 +497,9 @@ body {
 
     .hamburger-button {
         width: 8%;
+    }
+
+    .order__form {
+        width: 80%;
     }
 }
