@@ -191,3 +191,45 @@ body {
 .category:hover {
     color: var(--hover-color);
 }
+
+/* 
+    FOURTH SECTION
+*/
+
+.work .container {
+    padding: 100px 0;
+}
+
+.work__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.work__title {
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.work__subtext {
+    text-align: center;
+    width: 65%;
+}
+
+.boxes, .boxes1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+
+.boxes1 {
+    flex-direction: row-reverse;
+}
+
+.box__content__title {
+    margin-bottom: 10px;
+}
+
